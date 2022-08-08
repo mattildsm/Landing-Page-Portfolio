@@ -4,17 +4,15 @@
 
 *{
     box-sizing: border-box;
-    margin: 15px 0;
-    padding: 0;
+    margin: 10px 0;
+    padding: 0 0;
     font-size: 20px;
 }
 
 body{
-    background-image: url("../NavBar/img/Fondo.png");
+    background-image: url("https://images.pexels.com/photos/691858/pexels-photo-691858.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=11");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
-    background-color: transparent;
 }
 
 header{
