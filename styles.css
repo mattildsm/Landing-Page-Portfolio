@@ -44,16 +44,11 @@ header{
     font-family: 'Oswald', sans-serif;
     align-content: center;
     align-items: center;
-    transition: all 0.3s
 }
 
 .header .logo .nombre{
     color: #92b4ec;
     font-size: 150%;
-}
-
-.header .logo:hover{
-    transform: scale(1.1);
 }
 
 .header .nav-links{
