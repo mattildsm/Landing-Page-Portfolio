@@ -10,7 +10,7 @@
 }
 
 body{
-    background-image: url("https://images.pexels.com/photos/691858/pexels-photo-691858.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=11");
+    background-image: url("./img/Fondo.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -75,7 +75,6 @@ header{
 .header .button button{
     font-size: 100%;
     color: #ffffff;
-    
     font-family: 'Ubuntu', sans-serif;
     padding: 9px 25px;
     background: #92b4ec;
@@ -87,4 +86,89 @@ header{
 .header .button button:hover{
     background-color: #ffd24c;
     color: #92b4ec;
+}
+
+main{
+    background-color:#ffffff;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#92b4ec;
+}
+
+#titular {
+    margin-top: 65px;
+    padding: 80px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagen{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.texts h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    background: linear-gradient(310deg, rgba(255,210,76,1) 30%, rgba(146,180,236,1) 77%);
+    background-clip: text;
+    color: transparent;
+}
+
+.texts p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.botones .call button{
+    font-size: 100%;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px 15px;
+    background: #92b4ec;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.texts .botones .call button:hover {
+    background-color: #ffd24c;
+    color: #ffffff;
+}
+
+.botones .learn button{
+    font-size: 100%;
+    color:#92b4ec;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 8px 10px;
+    background:#ffffff;
+    border-color: #92b4ec;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.texts .botones .learn button:hover {
+    background-color: #ffd24c;
+    color: #fff;
+    border:none;
+    border-color: #ffd24c;
+}
+
+.text-info {
+     display: flex;
+     font-family: 'Ubuntu', sans-serif;
+     background-color: #92b4ec;
+     color: #ffffff;
+     text-align: center;
+     padding: 150px 400px;
 }
