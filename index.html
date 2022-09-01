@@ -7,15 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NavBar</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <header class="header">
         <div class="logo">
-            <img src="./img/Logo.png" alt="Logo de la marca">
-            <p class="nombre">3D WAVES</p>
+            <!--<img src="./img/Logo.png" alt="Logo de la marca">-->
+            <!--<p class="nombre">3D WAVES</p>-->
+            <img src="./img/3D WAVES 3.png" alt="3d waves">
         </div>
-        <nav>
+        <nav class="navbar">
+            <label for="toggle-menu"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="toggle-menu">
             <ul class="nav-links">
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Productos</a></li>
@@ -23,8 +29,9 @@
                 <li><a href="#">Clientes</a></li>
                 <li><a href="#">Sobre Nosotros</a></li>
             </ul>
+            <!--<a href="#" class="button"><button>Contactanos</button></a>-->
         </nav>
-        <a href="#" class="button"><button>Contactanos</button></a>
+
     </header>
 
     <main>
@@ -33,19 +40,21 @@
             <div class="texts">
                 <h1>DESCUBRE EL MUNDO DE LA IMPRESIÓN 3D</h1>
                 <p>
-                    Nos dedicamos a diseñar e imprimir productos y herramientas que te ayudarán en el día a día, con esta tecnoligía que no tiene límites.
+                    Nos dedicamos a diseñar e imprimir productos y herramientas que te ayudarán en el día a día, con
+                    esta tecnoligía que no tiene límites.
                 </p>
 
                 <div class="botones">
                     <a href="#" class="call"><button>Ver productos</button></a>
-    
+
                     <a href="#" class="learn"><button>Ver servicios</button></a>
                 </div>
 
             </div>
 
-            <div id="imagen">
-                <img src="https://images.unsplash.com/photo-1611505908502-5b67e53e3a76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Imagen de costado" />
+            <div id="imagen" class="img">
+                <img src="https://images.unsplash.com/photo-1611505908502-5b67e53e3a76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    alt="Imagen de costado" class="img" />
             </div>
 
         </section>
@@ -54,13 +63,112 @@
 
             <div>
                 <p>
-                    En 3D Waves estamos convencidos de que la calidad del valor que aportamos a nuestros clientes, está directamente relacionado con la pasión con la que trabajamos como equipo.
-                    Por esta razón nos disponemos a desarrollar productos que son experiencias, objetos que transmiten emociones. Somos el puente entre el mundo virtual y el físico.
+                    En 3D Waves estamos convencidos de que la calidad del valor que aportamos a nuestros clientes, está
+                    directamente relacionado con la pasión con la que trabajamos como equipo.
+                    Por esta razón nos disponemos a desarrollar productos que son experiencias, objetos que transmiten
+                    emociones. Somos el puente entre el mundo virtual y el físico.
                 </p>
             </div>
 
         </section>
+
+        <section>
+
+            <div class="textos-cards">
+
+                <h1 class="titulo">SERVICIOS QUE REALIZAMOS</h1>
+                <!--<p class="parrafo">En este espacio tiene que ir un breve texto sobre algo de las cards</p>-->
+
+            </div>
+
+            <div id="cards">
+
+                <div class="texto-cards">
+                    <img src="./img/Diseño-3d.png" class="img-card" alt="imgaen de diseño 3D">
+                    <h3>Diseño de objetos</h3>
+                    <p>Contamos con las herramientas necesarias para diseñar lo que requiera el cliente</p>
+                </div>
+
+                <div class="texto-cards">
+                    <img src="./img/Print-3d.png" class="img-card" alt="imagen de impresion 3D">
+                    <h3>Impresión en formato 3D</h3>
+                    <p>Realizamos impresiones con diversos materiales plásticos</p>
+                </div>
+
+                <div class="texto-cards">
+                    <img src="./img/HeelBoy-3d.png" class="img-card" alt="imagen de pintura de objeto 3D">
+                    <h3>Post-Procesado</h3>
+                    <p>Mejoramos la resistencia, durabilidad y estética de las piezas impresas</p>
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
+
+    <footer>
+
+        <section id="footer">
+
+            <div class="direcciones">
+
+                <h1>CONTACTO</h1>
+
+                <div class="direcs">
+
+                    <div class="direc-1">
+
+                        <h2>Jupiter, Australia</h2>
+
+                        <div>
+                            <img src="./img/ubi.png" alt="ubicacion-icono" class="ubi">Calle Falsa 123
+                        </div>
+                        <div>
+                            <img src="./img/email.png" alt="correo-icono" class="correo">mail@mail.com
+                        </div>
+                        <div>
+                            <img src="./img/tel.png" alt="tel-icono" class="tel">011 1212121212
+                        </div>
+
+                    </div>
+
+                    <div class="direc-2">
+
+                        <h2>Esteban Echevería</h2>
+
+                        <div>
+                            <img src="./img/ubi.png" alt="ubicacion-icono" class="ubi">Calle Falsa 123
+                        </div>
+                        <div>
+                            <img src="./img/email.png" alt="correo-icono" class="correo">mail@mail.com
+                        </div>
+                        <div>
+                            <img src="./img/tel.png" alt="tel-icono" class="tel">011 1212121212
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="redes">
+
+                    <img src="./img/twitter.png" alt="logo-twitter">
+                    <img src="./img/insta.png" alt="logo-twitter">
+                    <img src="./img/facebook.png" alt="logo-twitter">
+
+                </div>
+
+            </div>
+
+            <div class="mapa-img">
+
+                <img src="./img/mapa.png" alt="Ubicacion en mapa">
+
+            </div>
+
+        </section>
+
+    </footer>
 
 </body>
 
