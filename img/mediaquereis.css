@@ -103,66 +103,95 @@
 
 }
 
-/*    .texts {
-        text-align: center;
-        width: 90%;
-        align-items: center;
-    }
-
-    .texts h1 {
-        display: block;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-
-    .texts p {
-        max-width: 100%;
-        font-size: 16px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .botones {
-        justify-content: center;
-    }
-    
-    .img {
-        display: none;
-    }
-
-    .text-info {
-        font-size: 15px;
-    }
-}
-
 @media (max-width:576px){
 
-    .navbar ul {
-        background-color: #ffffff;
-        width: 100%;
-        height: calc(100vh - 80px);
-        position: absolute;
-        top: 80px;
-        left: 0;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        transform: translateX(200%);
-        transition: all 0.4s ease-out;
-    }
+   header {
+      position: absolute;
+      padding: 0px 30px;
+   }
 
-    .navbar i {
-        display: block;
-    }
+   .navbar {
+      gap: 10px;
+  }
 
-    #toggle-menu:checked ~ .nav-links {
-        transform: translateX(0%);
-        transition: all 0.4s ease-in;
-    }
+   .nav-links {
+      position: absolute;
+      top: 80px;
+      left: 5%;
+      right: 5%;
+      width: 90%;
+      flex-direction: column;
+      background-color: #ffffff;
+      border: 2px solid #92b4ec;
+      border-top: 0px;
+      border-radius: 0px 0px 15px 15px;
+      align-items: flex-start;
+      padding: 45px 30px;
+      gap: 25px;
+      z-index: 2;
+      display: none;
+   }
 
-    .texts p {
-        max-width: 100%;
-    }
+   .nav-links a{
+      font-size: 18px;
+   }
 
-}*/
+   .navbar i {
+      display: flex;
+      cursor: pointer;
+   }
+
+   #toggle-menu:checked + .nav-links {
+      display: flex;
+   }
+
+   #titular {
+      margin-top: 100px;
+   }
+
+   .text-info {
+      width: 70%;
+   }
+
+   .textos-cards {
+      padding: 0px 0px 50px;
+   }
+
+   #footer {
+      margin: 0%;
+   }
+   
+   #datos-footer {
+      width: 90%;
+      padding: 0px;
+      margin-bottom: 0%;
+      justify-content: center;
+   }
+
+   .mapa-img {
+      padding: 15px 0px 30px;
+   }
+
+   .direcciones {
+      padding: 0px;
+      margin-bottom: 0%;
+   }
+
+   .redes {
+      margin: 0%;
+      padding-top: 40px;
+   }
+
+   .direcs {
+      display: inline;
+      gap: 50px;
+   }
+
+   .direc-1 {
+      justify-content: center;
+   }
+
+   .mini-img { 
+      margin: 0%;
+   }
+}
