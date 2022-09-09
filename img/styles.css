@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 10px 0;
+    padding: 0 0;
+    font-size: 18px;
+}
+
+/*body{
+    background-image: url("./img/Fondo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}*/
+
+header{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content:center;
+    height: 90px;
+    width: 100%;
+    padding: 0px 50px;
+    box-shadow: rgba(149,157,165,0.25) 0px 0px 30px 15px;
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 65px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.logo{
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    align-content: center;
+    align-items: center;
+}
+
+.header .logo .nombre{
+    color: #92b4ec;
+    font-size: 150%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar i {
+    font-size: 36px;
+    display: none;
+}
+
+#toggle-menu {
+    display: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 0 30px;
+}
+
+.header .nav-links li a:hover{
+    text-decoration: underline;
+    color: #ffd24c;
+}
+
+.header .nav-links a{
+    font-size: 110%;
+    color: #92b4ec;
+    text-decoration: none;
+}
+
+.header .button button{
+    font-size: 100%;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 9px 25px;
+    background: #92b4ec;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.header .button button:hover{
+    background-color: #ffd24c;
+    color: #92b4ec;
+}
+
+main{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#92b4ec;
+}
+
+#titular {
+    margin-top: 100px;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    border-radius: 2%;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.texts h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    width: 80%;
+    font-weight: 800;
+    background: linear-gradient(310deg, rgba(255,210,76,1) 30%, rgba(146,180,236,1) 77%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.texts p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    width: 60%;
+}
+
+.botones .call button{
+    font-size: 100%;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px 15px;
+    background: #92b4ec;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.texts .botones .call button:hover {
+    background-color: #ffd24c;
+    color: #ffffff;
+}
+
+.botones .learn button{
+    font-size: 100%;
+    color:#92b4ec;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 8px 10px;
+    background:#ffffff;
+    border-color: #92b4ec;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.texts .botones .learn button:hover {
+    background-color: #ffd24c;
+    color: #fff;
+    border:none;
+    border-color: #ffd24c;
+}
+
+.text-info {
+     display: flex;
+     font-family: 'Ubuntu', sans-serif;
+     align-items: center;
+     justify-content: center;
+     width: 90%;
+     max-width: 850px;
+     color: #92b4ec;
+     text-align: center;
+     padding: 30px 0px;  
+}
+
+#tarjetas {
+    width: 90%;
+    padding: 0px 0px 50px 0px;
+}
+
+.textos-cards {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 50px 50px 50px;
+}
+
+.titulo {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}
+
+#cards {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.texto-cards {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #92b4ec;
+    color: #ffffff;
+    flex-wrap: wrap;
+    padding: 5px 10px 30px;
+    border-radius: 5%;
+    max-width: 380px;
+}
+
+#cards p {
+    font-size: 15px;
+    max-width: 300px;
+}
+
+.img-card{
+    padding: 20px ;
+    width: 350px;
+    border-radius: 10%;
+}
+
+#footer {
+    background-color: #ffd24c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#datos-footer {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    padding: 50px 50px 0px;
+}
+
+.mapa-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa-img img{
+    cursor: pointer;
+    border-radius: 2%;
+    max-width: 600px;
+    width: 90%;
+}
+
+.direcciones {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 0px;
+}
+
+.direcciones h1 {
+    display: flex;
+    justify-content: end;
+    font-size: 30px;
+}
+
+.direcs {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.direcs h2{
+    font-size: 20px;
+}
+
+.direc-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+}
+
+.direc-1 div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.direc-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+}
+
+.direc-2 div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.direc-1 img {
+    width: 25px;
+}
+
+.direc-2 img {
+    width: 25px;
+}
+
+.redes {
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+
+.redes img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.mini-img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 200px;
+    padding: 0px 50px 50px 50px;
+}
