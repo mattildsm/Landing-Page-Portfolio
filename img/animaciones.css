@@ -1,0 +1,23 @@
+.item {
+    transition: 0.3s;
+}
+
+.item:hover {
+    transform: scale(1.03);
+}
+
+.texto-cards {
+    transition: 0.5s;
+}
+
+.texto-cards:hover {
+    transform: scale(1.1);
+}
+
+.redes img{
+    transition: 0.5s;
+}
+
+.redes img:hover {
+    transform: scale(1.2);
+}
